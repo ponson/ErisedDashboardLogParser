@@ -1,0 +1,121 @@
+"id","user_id","path","source_ip","request_header","request_method","request_content","response_code","response_content","created_at","updated_at"
+"603230","1","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IkRPZlArc1hxckFQQ1JqRThsT3hEK1E9PSIsInZhbHVlIjoiaXhTeGE0UzV5T0lYakVVaXZsYURiSVZFa3NqTUZUNUp6cTNYM2RsV0RpRkkxdGdzaDM5Z2VnS3pwMTFidllSWkZvR09ja0hnUEZaQmJEVng1bFo3RmNoQ0dNYjJybzNGQ3cvT3FURFNuakYvMjAvOTRpRjR5RVdGcHRJS1R1TzEiLCJtYWMiOiI1NjhhOWZiY2NiYzVjNjQ4NDAzMjdhODRiNTAxNTJiNzMwZGQ5MWRiN2E1N2I0M2Q3NTY5ZGExYTBkNmM4MDJiIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=mongo-express=s%3AcbxCS3nHY_RN3ivk8pmfCzu1qWnaFYYq.I3eMisfKecfqZll8eflWx%2BUCMLpgGe78hJPXMqGsD2w; _ga=GA1.2.420601497.1660545411; _ga_8BDY4MTPL5=GS1.1.1661136434.2.1.1661136459.0.0.0; _ga=GA1.3.420601497.1660545411; XSRF-TOKEN=eyJpdiI6IkRPZlArc1hxckFQQ1JqRThsT3hEK1E9PSIsInZhbHVlIjoiaXhTeGE0UzV5T0lYakVVaXZsYURiSVZFa3NqTUZUNUp6cTNYM2RsV0RpRkkxdGdzaDM5Z2VnS3pwMTFidllSWkZvR09ja0hnUEZaQmJEVng1bFo3RmNoQ0dNYjJybzNGQ3cvT3FURFNuakYvMjAvOTRpRjR5RVdGcHRJS1R1TzEiLCJtYWMiOiI1NjhhOWZiY2NiYzVjNjQ4NDAzMjdhODRiNTAxNTJiNzMwZGQ5MWRiN2E1N2I0M2Q3NTY5ZGExYTBkNmM4MDJiIiwidGFnIjoiIn0%3D; erised_session=eyJpdiI6Ii92b29SQ1h2OGsrUnNXUm52eXpsSEE9PSIsInZhbHVlIjoiMVVhM0F5ZmN2TGZmbW9UYjkrR1habFgycm96RDcvRkNJUVMrQkcwWGdMVGo1b3k5QW5wNUh2TjV2T2E5WFNKL09OUTI1T2xoNkVRNmdSL1lleVZEa05FWjBPREx6UTZ3SVRma3UwVTNJTVorZXdjcXRma3lxTFZROFVvTlp5RjkiLCJtYWMiOiI0ODhjMTBjMDljZmVmMjJkOGNiNjNiZGFkZjZkOTE2NGI5MjJiNDMyMDM3MTU3ODAwYjI3YTczMTcwNTE5MDEwIiwidGFnIjoiIn0%3D","GET","model:""GV30""
+","200",,"2022-09-27 09:55:52","2022-09-27 09:55:52"
+"603287","376","/api/v1/reviews/model","125.22.35.2","host=g5ap01.benq.com
+x-real-ip=125.22.35.2
+x-forwarded-for=125.22.35.2
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IllYWG5nZHVUMFE5RDdXcFNhdlZ1QlE9PSIsInZhbHVlIjoibDNKNXdBMHNZR1dueTIrbXQydFQzTlF1bDU2eVdvZDA3QTdHd1RmV1RZMFdOOU03YmgxRTVVeWw2cHRYa1NYNGtUenhEbFJydHhrUE42cUpuMW5VQVpYOWszZGZsRis4NlU5RzlXdFA1UEpxOENxOU16cExMUkxkaUhJck9RYXIiLCJtYWMiOiI4N2Y3YzQzZDFlMWZjODE5M2NlZGNhMmE4YTI5NWI2ZDBhY2Y0ODRmZjkxMzExMTc1ZDgyOWUzM2VjMzU4YmI2IiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=en-US,en;q=0.9
+cookie=hubspotutk=e2ad898b793942a45cfdd8689c1de2b4; _fbp=fb.1.1652069801768.704744134; agree_cookie=true; zowie_agree_cookie=true; guest_cart=%5B%7B%22site_code%22%3A%22us-buy%22%2C%22cart_id%22%3A2575966%2C%22cart_key%22%3A%22rF5CicSv2JvMectA9ZnwHwOcrVwkL3yJ%22%7D%5D; _hjSessionUser_2695686=eyJpZCI6IjQ4N2RjNDAxLWJiNmYtNTI1NC04ODdkLTVlNjYzMWJmYjAxNiIsImNyZWF0ZWQiOjE2NTY2NzU4NTM4NTQsImV4aXN0aW5nIjp0cnVlfQ==; _gcl_au=1.1.1107880426.1659859972; benq_search_result=[""What%E2%80%99s%20the%20Difference%20Between%20Light%20Tuner%20and%20Black%20eQualizer%3F"",""2480"",""gw2480l"",""pd2705u"",""5%20Reasons%20Why%20BenQ%20Eye-Care%20Monitor%20is%20the%20Best%20for%20Programmers""]; _ga=GA1.3.GA1.2.GA1.2.23999100.1652069800; _clck=ob5915|1|f55|0; _gcl_aw=GCL.1664015803.Cj0KCQjw1bqZBhDXARIsANTjCPL6mP6jE5YernTu_jDVAUY-hUCa2syW4MKX8SwEt0gD1OzzqF4Z8_gaAp7wEALw_wcB; _gac_UA-119697932-1=1.1664015817.Cj0KCQjw1bqZBhDXARIsANTjCPL6mP6jE5YernTu_jDVAUY-hUCa2syW4MKX8SwEt0gD1OzzqF4Z8_gaAp7wEALw_wcB; _ga_HE3E71581Q=GS1.1.1664015801.7.1.1664015825.36.0.0; _ga_Q4X0C63FCS=GS1.1.1664015801.10.1.1664015825.36.0.0; _gid=GA1.2.1158","GET","model:""GW2485TC""
+","200",,"2022-09-27 18:46:35","2022-09-27 18:46:35"
+"603288","376","/api/v1/reviews/model","125.22.35.2","host=g5ap01.benq.com
+x-real-ip=125.22.35.2
+x-forwarded-for=125.22.35.2
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6InlOSmhpOFdzN1JpS2tlZDEvSm5iakE9PSIsInZhbHVlIjoiRXJJY2VEcGQ0R0xoNXNyYXZ6akQxQmVmbDlqYW1HbWFmamhnNmdlcGFSNjYxVUNBWFRhclIxeDVQekg5WGJNQUFCK0pvdElJYXluWFMxWmFtMFhDSS9PbVd3Rkl1aDhoNW1GaXZ6azBkZlFJU2lXWjFXWitZQ0tKdzhYM0tUcGoiLCJtYWMiOiI1YjZiODRmZTNiN2E2NjA1ZjY0ZDE0NmE4NGNkMTlkMWQ5OGM3M2Y3NTk2YTA4NTA0MzMyM2U2NGQ3Y2NjZDIxIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=en-US,en;q=0.9
+cookie=hubspotutk=e2ad898b793942a45cfdd8689c1de2b4; _fbp=fb.1.1652069801768.704744134; agree_cookie=true; zowie_agree_cookie=true; guest_cart=%5B%7B%22site_code%22%3A%22us-buy%22%2C%22cart_id%22%3A2575966%2C%22cart_key%22%3A%22rF5CicSv2JvMectA9ZnwHwOcrVwkL3yJ%22%7D%5D; _hjSessionUser_2695686=eyJpZCI6IjQ4N2RjNDAxLWJiNmYtNTI1NC04ODdkLTVlNjYzMWJmYjAxNiIsImNyZWF0ZWQiOjE2NTY2NzU4NTM4NTQsImV4aXN0aW5nIjp0cnVlfQ==; _gcl_au=1.1.1107880426.1659859972; benq_search_result=[""What%E2%80%99s%20the%20Difference%20Between%20Light%20Tuner%20and%20Black%20eQualizer%3F"",""2480"",""gw2480l"",""pd2705u"",""5%20Reasons%20Why%20BenQ%20Eye-Care%20Monitor%20is%20the%20Best%20for%20Programmers""]; _ga=GA1.3.GA1.2.GA1.2.23999100.1652069800; _clck=ob5915|1|f55|0; _gcl_aw=GCL.1664015803.Cj0KCQjw1bqZBhDXARIsANTjCPL6mP6jE5YernTu_jDVAUY-hUCa2syW4MKX8SwEt0gD1OzzqF4Z8_gaAp7wEALw_wcB; _gac_UA-119697932-1=1.1664015817.Cj0KCQjw1bqZBhDXARIsANTjCPL6mP6jE5YernTu_jDVAUY-hUCa2syW4MKX8SwEt0gD1OzzqF4Z8_gaAp7wEALw_wcB; _ga_HE3E71581Q=GS1.1.1664015801.7.1.1664015825.36.0.0; _ga_Q4X0C63FCS=GS1.1.1664015801.10.1.1664015825.36.0.0; _gid=GA1.2.1158","GET","model:""GW2785TC""
+","200",,"2022-09-27 18:46:57","2022-09-27 18:46:57"
+"603644","315","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IlgvZFB3ZllLeVJGWlpxRVBkRnBLQXc9PSIsInZhbHVlIjoibi9lSTZTVXZzVzlYSXBoU0U3Rm15RXZMajlkYUEyeXdvbHRwcmZ4RGJKZ1hPVWthQ09wT1hOUXZWL0dXNWhndk1kcUluQ1JPb3dhQlV4NTIyM3hJYTJsUFN0V0hNN3U0cU11QmRHbEVHK1hoKzRiWFRtdVNDUWVoNUkyT3hBY2wiLCJtYWMiOiI2YThhNDNkYzdiY2E2YzFhMDI1YWUyMTI3MzgzMTYxZjEyYzBmMjVlOWY4Yjc0ZjE3M2Q4YmExNWIwYzA0ODY4IiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_fbp=fb.1.1572514728170.1751753293; gauserid=B85237AF2EED6A19B6C09345B9C1EF48; visitor_id=6uY9wCrNffsW8EdM; agree_cookie=true; scrollcnt=1; messagesUtk=42eee005d6d546aca337a196e823ac73; _ga=GA1.3.1070261140.1572514727; _ce.s=v11.rlc~1609995671894; hubspotutk=84c8c73a9fd4eda3c17261e391026369; cal_locale=zh-TW%2Czh%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7; _fbc=fb.1.1629977546408.IwAR1BJ1kZ2xAU8AMWeAdS8yxhIyOwtTkWPiNzIRIkEq0NDdDhPGhbUpRloqw; benq_search_result=[""smart%20control%20app"",""Netflix"",""casting"",""Google"",""android%20tv""]; clubbenqtoken=59cfe3cf-b5e6-46b8-9d08-974c27e0f4cb; clubbenqtokenlastverify=2021-10-06 03:33:15; cartids=%5B%7B%22site_code%22%3A%22us-buy%22%2C%22cart_id%22%3A%2270580%22%7D%5D; _hjid=d8fc344c-6213-44f5-99c1-22f10b4557e9; _hjSessionUser_2695686=eyJpZCI6ImU2NmJjY2M5LWJmYjAtNTdhYi05NWMxLWM1MTNkMTI2NGE3OSIsImNyZWF0ZWQiOjE2MzgxNTM0NTA0ODMsImV4aXN0aW5nIjp0cnVlfQ==; _hjSessionUser_1478708=eyJpZCI6IjRlNDU3ZGQ1LWM3OWMtNTdkYi1iNDk5LTY1Mjc4MmEwZTE4NSIsImNyZWF0ZWQiOjE2NDY0ODIzNDA0NDYsImV4aXN0aW5nIjp0cnVlfQ==; _ga_Z1KB6B42JW=GS1.1.1646803288.193.","GET","model:""GV30""
+","200",,"2022-09-29 11:49:05","2022-09-29 11:49:05"
+"603645","315","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IldGZUdPLzUrUk5mL2VaOVROL1M1dXc9PSIsInZhbHVlIjoiNjhPdndzdUdPcXA4czFOTXU0S0Q4bStGSi9VY2dacFliMUZtY0I4UzZONFRGbE9LVzdzRVlEdHY0TUt4MDhGS1BuZjF2RFMzOFR3WUVqNm45b0NFQWJzMjFVN3N6QjMzTSs0QmdFTGJBTm5vY0R2bnFQbVdTRWFoaDZQamtRRnUiLCJtYWMiOiJhMDkwNWQ4NThhYzgwNGYwNGY3MGUzNzFkOThkNGZiZGExZDk2N2U4YThiNjMwNTNmOGIxZDU2MGU4ZDg1YzQxIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_fbp=fb.1.1572514728170.1751753293; gauserid=B85237AF2EED6A19B6C09345B9C1EF48; visitor_id=6uY9wCrNffsW8EdM; agree_cookie=true; scrollcnt=1; messagesUtk=42eee005d6d546aca337a196e823ac73; _ga=GA1.3.1070261140.1572514727; _ce.s=v11.rlc~1609995671894; hubspotutk=84c8c73a9fd4eda3c17261e391026369; cal_locale=zh-TW%2Czh%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7; _fbc=fb.1.1629977546408.IwAR1BJ1kZ2xAU8AMWeAdS8yxhIyOwtTkWPiNzIRIkEq0NDdDhPGhbUpRloqw; benq_search_result=[""smart%20control%20app"",""Netflix"",""casting"",""Google"",""android%20tv""]; clubbenqtoken=59cfe3cf-b5e6-46b8-9d08-974c27e0f4cb; clubbenqtokenlastverify=2021-10-06 03:33:15; cartids=%5B%7B%22site_code%22%3A%22us-buy%22%2C%22cart_id%22%3A%2270580%22%7D%5D; _hjid=d8fc344c-6213-44f5-99c1-22f10b4557e9; _hjSessionUser_2695686=eyJpZCI6ImU2NmJjY2M5LWJmYjAtNTdhYi05NWMxLWM1MTNkMTI2NGE3OSIsImNyZWF0ZWQiOjE2MzgxNTM0NTA0ODMsImV4aXN0aW5nIjp0cnVlfQ==; _hjSessionUser_1478708=eyJpZCI6IjRlNDU3ZGQ1LWM3OWMtNTdkYi1iNDk5LTY1Mjc4MmEwZTE4NSIsImNyZWF0ZWQiOjE2NDY0ODIzNDA0NDYsImV4aXN0aW5nIjp0cnVlfQ==; _ga_Z1KB6B42JW=GS1.1.1646803288.193.","GET","model:""GS50""
+","200",,"2022-09-29 11:56:28","2022-09-29 11:56:28"
+"603664","315","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6InRxR0cyZys0azV6K1RhZHZ1SExpRHc9PSIsInZhbHVlIjoibmZ0RVE2SGw2akVicEJaRlUzblJ0TGVybnhqazhRVy9WeFhwRTBjdGh4Nk0vQ3V5YUZ6YWt6eVlQSDYzWThNQ0VESDVpTC9CdUR2ajU2RDJzUkVYeWVzRTduNituZkN3VDV6ajVTSjg0bW5hWHJhRmZUQWV2ZDlNNnAvUC93c0UiLCJtYWMiOiJhYzkyYzNhYjRkNDE1YTE2YzVlZWU5NjJmZTAyMGNiNThiMDY4NTA0MDUzYjU0MzU0YzZkOGFhOGI1NmFlZTdkIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_fbp=fb.1.1572514728170.1751753293; gauserid=B85237AF2EED6A19B6C09345B9C1EF48; visitor_id=6uY9wCrNffsW8EdM; agree_cookie=true; scrollcnt=1; messagesUtk=42eee005d6d546aca337a196e823ac73; _ga=GA1.3.1070261140.1572514727; _ce.s=v11.rlc~1609995671894; hubspotutk=84c8c73a9fd4eda3c17261e391026369; cal_locale=zh-TW%2Czh%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7; _fbc=fb.1.1629977546408.IwAR1BJ1kZ2xAU8AMWeAdS8yxhIyOwtTkWPiNzIRIkEq0NDdDhPGhbUpRloqw; benq_search_result=[""smart%20control%20app"",""Netflix"",""casting"",""Google"",""android%20tv""]; clubbenqtoken=59cfe3cf-b5e6-46b8-9d08-974c27e0f4cb; clubbenqtokenlastverify=2021-10-06 03:33:15; cartids=%5B%7B%22site_code%22%3A%22us-buy%22%2C%22cart_id%22%3A%2270580%22%7D%5D; _hjid=d8fc344c-6213-44f5-99c1-22f10b4557e9; _hjSessionUser_2695686=eyJpZCI6ImU2NmJjY2M5LWJmYjAtNTdhYi05NWMxLWM1MTNkMTI2NGE3OSIsImNyZWF0ZWQiOjE2MzgxNTM0NTA0ODMsImV4aXN0aW5nIjp0cnVlfQ==; _hjSessionUser_1478708=eyJpZCI6IjRlNDU3ZGQ1LWM3OWMtNTdkYi1iNDk5LTY1Mjc4MmEwZTE4NSIsImNyZWF0ZWQiOjE2NDY0ODIzNDA0NDYsImV4aXN0aW5nIjp0cnVlfQ==; _ga_Z1KB6B42JW=GS1.1.1646803288.193.","GET","model:""GV30""
+","200",,"2022-09-29 16:22:31","2022-09-29 16:22:31"

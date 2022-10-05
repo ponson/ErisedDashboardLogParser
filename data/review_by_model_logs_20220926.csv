@@ -1,0 +1,201 @@
+"id","user_id","path","source_ip","request_header","request_method","request_content","response_code","response_content","created_at","updated_at"
+"596975","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6ImplY2dOZjBPbWg0bGVnd0k5M0xHSHc9PSIsInZhbHVlIjoibFZWWkJjcHVKdnZyaFNjaUVMREQwM1BjVHNEMFdDeEo3ZE1TQ2JUQmZGNldLK29yRXREQlV3NHhITVYxa3JsYUpaL09BZ1hCWWVSNGRvZVhCSkVkbHJ4Zkp4dy80TWFabHFkbzk5Vmt3RWZJTFhmMjJQajJlZ0UxcktzaklPTmYiLCJtYWMiOiI2ZTQ1NGY0ZTAyYTM3MGY0ZGEzM2YxMTYzNDBlNTJlNDFmMDExZWE1MTczYTgzZWJmYWI3MWQ4MzA3YzllYWI2IiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6ImplY2dOZjBPbWg0bGVnd0k5M0xHSHc9PSIsInZhbHVlIjoibFZWWkJjcHVKdnZyaFNjaUVMREQwM1BjVHNEMFdDeEo3ZE1TQ2JUQmZGNldLK29yRXREQlV3NHhITVYxa3JsYUpaL09BZ1hCWWVSNGRvZVhCSkVkbHJ4Zkp4dy80TWFabHFkbzk5Vmt3RWZJTFhmMjJQajJlZ0UxcktzaklPTmYiLCJtYWMiOiI2ZTQ1NGY0ZTAyYTM3MGY0ZGEzM2YxMTYzNDBlNTJlNDFmMDExZWE1MTczYTgzZWJmYWI3MWQ4MzA3YzllYWI2IiwidGFnIjoi","GET","model:""1060""
+","200",,"2022-09-26 10:09:08","2022-09-26 10:09:08"
+"596978","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IlRwRFhaU0tlMWp6M2ovTWtZa25BNmc9PSIsInZhbHVlIjoicUlWemhyMzM3U0NlUVkvMlFOMHdkaFg1bURRMkNMSy9XbWRHUitrYklhQnptSXRkYVdMclhLNGhEQ0xCTzJhRWpITk0vZjh5dUYyUHBodC9vNVpxUGZRTUx2NmlCRDloTEdVWHJGamF1dlF0M215T2lkdC9yalBYQ0d4YzFEdUYiLCJtYWMiOiI3MzViZmY2MWU0OWQwMGM5MmE3YTgyOTI5YTU3NDU2YTdhNTIzOWRmZmNiN2E4MTVjMzVjNDAzY2U2NzVjZTc4IiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6IlRwRFhaU0tlMWp6M2ovTWtZa25BNmc9PSIsInZhbHVlIjoicUlWemhyMzM3U0NlUVkvMlFOMHdkaFg1bURRMkNMSy9XbWRHUitrYklhQnptSXRkYVdMclhLNGhEQ0xCTzJhRWpITk0vZjh5dUYyUHBodC9vNVpxUGZRTUx2NmlCRDloTEdVWHJGamF1dlF0M215T2lkdC9yalBYQ0d4YzFEdUYiLCJtYWMiOiI3MzViZmY2MWU0OWQwMGM5MmE3YTgyOTI5YTU3NDU2YTdhNTIzOWRmZmNiN2E4MTVjMzVjNDAzY2U2NzVjZTc4IiwidGFnIjoi","GET","model:""GS2""
+","200",,"2022-09-26 10:11:03","2022-09-26 10:11:03"
+"597021","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IlU1UnBvY0g3MUhNZWwyNWI5anNVUlE9PSIsInZhbHVlIjoiMHlrZHlBSWExakRiV290UWpvKzYxOGhyVWVxdTA5bmVGOThhejg0UFZ2SStNb2N6cFZNY2F0bTY5MzNGTkhJVHdHOHlwVHdmM1lpS2djUk5EdVhQNDRwakI4VTZHUzVZdHRYcEdETUNReGhDM0EwdnBkeHlNdGtGZ20zSWRuNDciLCJtYWMiOiJhZmI2NjE1MTVkMzFkYjQyYTFlNGE0YzgwOGM3NGM4NmE0ZjYzMjVhODVlODMxYTVhMmI1YzA4OTVkYzEwYjg1IiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6IlU1UnBvY0g3MUhNZWwyNWI5anNVUlE9PSIsInZhbHVlIjoiMHlrZHlBSWExakRiV290UWpvKzYxOGhyVWVxdTA5bmVGOThhejg0UFZ2SStNb2N6cFZNY2F0bTY5MzNGTkhJVHdHOHlwVHdmM1lpS2djUk5EdVhQNDRwakI4VTZHUzVZdHRYcEdETUNReGhDM0EwdnBkeHlNdGtGZ20zSWRuNDciLCJtYWMiOiJhZmI2NjE1MTVkMzFkYjQyYTFlNGE0YzgwOGM3NGM4NmE0ZjYzMjVhODVlODMxYTVhMmI1YzA4OTVkYzEwYjg1IiwidGFnIjoi","GET","model:""224E5EDSB\/11""
+","200",,"2022-09-26 10:54:20","2022-09-26 10:54:20"
+"597022","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6ImRxdkZIU2NUb1gxSkpaS2E2b2paR2c9PSIsInZhbHVlIjoiZVZUVUxHUEJuWTZieGgrN2tLanJ1aVA0R2x3d3FpTWM1aEJmQVhhQ1dZWGtaR2lrVmx2VXBQaWNnRWoreHUwTTJiYXBMdklVbEdwL08rZHhwVDZRZW9BeUR4bFJDb1kxb2pqY2EzUnk0ZHBsdWduL2wyU2ZFZTNTeVNiMzU3UTgiLCJtYWMiOiJhNDY0ZDY0MWJlZjhmNWEzNjVlZmJlMGE2MDdjZDI4ZjM5ODMyOTAwODI5NjA5ODNiYWZkNDczOTkxODhkMDM5IiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6ImRxdkZIU2NUb1gxSkpaS2E2b2paR2c9PSIsInZhbHVlIjoiZVZUVUxHUEJuWTZieGgrN2tLanJ1aVA0R2x3d3FpTWM1aEJmQVhhQ1dZWGtaR2lrVmx2VXBQaWNnRWoreHUwTTJiYXBMdklVbEdwL08rZHhwVDZRZW9BeUR4bFJDb1kxb2pqY2EzUnk0ZHBsdWduL2wyU2ZFZTNTeVNiMzU3UTgiLCJtYWMiOiJhNDY0ZDY0MWJlZjhmNWEzNjVlZmJlMGE2MDdjZDI4ZjM5ODMyOTAwODI5NjA5ODNiYWZkNDczOTkxODhkMDM5IiwidGFnIjoi","GET","model:""24GM77-B""
+","200",,"2022-09-26 10:54:24","2022-09-26 10:54:24"
+"597023","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IjRpcWxEQzROUGNnamVRTzRtZE1YTnc9PSIsInZhbHVlIjoiV2I1TVYxOFo1MVp0U2xIb0JDVnZDakwyb2tkUWFwK1VxZzNCMERxQzgrZ1Uxc1hRM3pUbmhPMFVUdVROU0oxQklxTlJ2SUZKQ1BnUGJWamJ2SDdmOThWKzlDSlUzdm51QUVFMlF4MXVUanpGZVd1L2ZwTm5aakVjY1l0N21tRXUiLCJtYWMiOiI5YjZiOWY5MzViYjUzNjY0ZTk4OTFmMDJiMzkzNDc1YmEzNzk2OWJjNjZlYTBkYTJhNmMyNjEyZWNhZWM0NTAwIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6IjRpcWxEQzROUGNnamVRTzRtZE1YTnc9PSIsInZhbHVlIjoiV2I1TVYxOFo1MVp0U2xIb0JDVnZDakwyb2tkUWFwK1VxZzNCMERxQzgrZ1Uxc1hRM3pUbmhPMFVUdVROU0oxQklxTlJ2SUZKQ1BnUGJWamJ2SDdmOThWKzlDSlUzdm51QUVFMlF4MXVUanpGZVd1L2ZwTm5aakVjY1l0N21tRXUiLCJtYWMiOiI5YjZiOWY5MzViYjUzNjY0ZTk4OTFmMDJiMzkzNDc1YmEzNzk2OWJjNjZlYTBkYTJhNmMyNjEyZWNhZWM0NTAwIiwidGFnIjoi","GET","model:""27BK550Y-B""
+","200",,"2022-09-26 10:54:32","2022-09-26 10:54:32"
+"597024","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6Ikd3bnF3bmZQWTRIV2RxTGRqM2lUOFE9PSIsInZhbHVlIjoiQkRsRTVUOG9pUHZrYzZBdnA2WmZUcjJwcWJDUVBUOWdaY0NyUHZ0c3dYRklPRjJUSEUydmM4RmNoN296Mi9QSkdPREU5RExRUS9Cd1FqRk1QL1BCem5NVGNXMjk4Z0xHUTZmcUNxWk16S2c5U2lQWFZNS1FXclhvRCs4ZEhvZmciLCJtYWMiOiIxOGIwZWRlMzE1MjUwN2NlYjA1OTYwOWNiZDQyNTYyZDRmNjU2ZjgyOTk3YTI1OGE3OTAxNjQyNDYxMDhjMTRkIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6Ikd3bnF3bmZQWTRIV2RxTGRqM2lUOFE9PSIsInZhbHVlIjoiQkRsRTVUOG9pUHZrYzZBdnA2WmZUcjJwcWJDUVBUOWdaY0NyUHZ0c3dYRklPRjJUSEUydmM4RmNoN296Mi9QSkdPREU5RExRUS9Cd1FqRk1QL1BCem5NVGNXMjk4Z0xHUTZmcUNxWk16S2c5U2lQWFZNS1FXclhvRCs4ZEhvZmciLCJtYWMiOiIxOGIwZWRlMzE1MjUwN2NlYjA1OTYwOWNiZDQyNTYyZDRmNjU2ZjgyOTk3YTI1OGE3OTAxNjQyNDYxMDhjMTRkIiwidGFnIjoi","GET","model:""2040""
+","200",,"2022-09-26 10:54:41","2022-09-26 10:54:41"
+"597025","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6Ik54TnFkclpGWThaWnI3NFg1a28vK1E9PSIsInZhbHVlIjoiUmFPcWlmYjlMTUt6MVUvWFhxdmxlc1A2N004RnlMZ21pL2dJUVM1OXVSQTVESW9ab21aVXBsUW1LaFpqWGIvUTFHL1RKVGxwczZNUnhSYUNEODV4VUtIcmhOVldNbVZoVzcvNmZxQURMTmM1Y2pPT0RzRTBwKzRTWEplZkpseGEiLCJtYWMiOiI4ZTk0YWY4NDcwMDdhYmU2MTExOTNiNzczNzAyYmVmMzY4OGJjZGVlYmM4MzM0ZjgzNmEyYWVjZmZhNjkwZDliIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6Ik54TnFkclpGWThaWnI3NFg1a28vK1E9PSIsInZhbHVlIjoiUmFPcWlmYjlMTUt6MVUvWFhxdmxlc1A2N004RnlMZ21pL2dJUVM1OXVSQTVESW9ab21aVXBsUW1LaFpqWGIvUTFHL1RKVGxwczZNUnhSYUNEODV4VUtIcmhOVldNbVZoVzcvNmZxQURMTmM1Y2pPT0RzRTBwKzRTWEplZkpseGEiLCJtYWMiOiI4ZTk0YWY4NDcwMDdhYmU2MTExOTNiNzczNzAyYmVmMzY4OGJjZGVlYmM4MzM0ZjgzNmEyYWVjZmZhNjkwZDliIiwidGFnIjoi","GET","model:""CSE-200""
+","200",,"2022-09-26 10:54:49","2022-09-26 10:54:49"
+"597026","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6InJza0NtamJJbFlnbkJ2dDk1ZEtOcEE9PSIsInZhbHVlIjoicDlWZ04zMVhyOXdadlFRS1lHYWJtQ0I1cXIwV3lEc2VSWXNiM2Y2a21xZE90Wkk1T1dNWUZlQWtZdDFhd2o0RW1WS1ZXZDJNSWJMK09lMUE2N0tJV3kxVEwxU0FzMnJVUythYU0waldIUDluWC9pRTEvK2FJWDVZb3BSU1pNRkIiLCJtYWMiOiIwNGIyOGY4NDk3NzNjYjQyNzdkMWIxZjNjYzAyOTQ1OTgzMWRkMWIwM2UyMGFkZWU5MzhkMDIyMjk5NjdlMWUxIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6InJza0NtamJJbFlnbkJ2dDk1ZEtOcEE9PSIsInZhbHVlIjoicDlWZ04zMVhyOXdadlFRS1lHYWJtQ0I1cXIwV3lEc2VSWXNiM2Y2a21xZE90Wkk1T1dNWUZlQWtZdDFhd2o0RW1WS1ZXZDJNSWJMK09lMUE2N0tJV3kxVEwxU0FzMnJVUythYU0waldIUDluWC9pRTEvK2FJWDVZb3BSU1pNRkIiLCJtYWMiOiIwNGIyOGY4NDk3NzNjYjQyNzdkMWIxZjNjYzAyOTQ1OTgzMWRkMWIwM2UyMGFkZWU5MzhkMDIyMjk5NjdlMWUxIiwidGFnIjoi","GET","model:""Anker NEBULA Cosmos Laser 1080P""
+","200",,"2022-09-26 10:54:52","2022-09-26 10:54:52"
+"597027","233","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6IlFEWXpXbUJrRkhDVDRwaW1DbGJrTkE9PSIsInZhbHVlIjoibFIwSzZXVkFGOXJWOWUyZHRyYWJBaGwrdE9DRHRQT1FrdzVxUkI4RmN3b2psVUxBaVBneUtrUlJ6Q0pLYXpaUjFFbDFWekE4aFN4OFc4ZWlmbHM2S1FtdjNwclMxb09GbHVSaFUwT0pLMU51S0I0MHg2RklVR3AyN0FyRG1Rd2siLCJtYWMiOiI2YTA0YjM1ZmVkMWRlMmIwZThhMGQxMDgzZWU1MDc3NjQ5ZWY5MTY4MDRlYjY5YmQxYjY4NmUxY2E2ZDNjMTFjIiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1103349128.1635752221; stage_locale=en; production_locale=en; _ga_DCJ9ZZZJJP=GS1.1.1643001695.1.0.1643001737.0; production_session=1339; stage_session=eyJpdiI6IjYxbVM4SUpPUmVQVndHaWFqXC9ESXF3PT0iLCJ2YWx1ZSI6IlYxWHFkbWZkNEIrakdzOHQ5UzBLaWc9PSIsIm1hYyI6Ijk3NWY2YTZlZWI4MThiZjFhZDkwNWNiODdmZGQ5MGI1ODg5MmRiZmZiNDY5OTZlY2QzNDI5ODFkMGI4YWIzOGEifQ%3D%3D; _ga_8BDY4MTPL5=GS1.1.1662959080.3.0.1662959080.0.0.0; _gcl_au=1.1.993146897.1663545892; __hstc=132696849.1b793d8ab2cf61f0dc3cc8954b4010b9.1663545893833.1663545893833.1663545893833.1; hubspotutk=1b793d8ab2cf61f0dc3cc8954b4010b9; _ga_Z1KB6B42JW=GS1.1.1663545893.1.1.1663545905.48.0.0; _ga=GA1.1.1103349128.1635752221; _ga_VR3WZBE9GG=GS1.1.1663745706.6.1.1663745726.40.0.0; XSRF-TOKEN=eyJpdiI6IlFEWXpXbUJrRkhDVDRwaW1DbGJrTkE9PSIsInZhbHVlIjoibFIwSzZXVkFGOXJWOWUyZHRyYWJBaGwrdE9DRHRQT1FrdzVxUkI4RmN3b2psVUxBaVBneUtrUlJ6Q0pLYXpaUjFFbDFWekE4aFN4OFc4ZWlmbHM2S1FtdjNwclMxb09GbHVSaFUwT0pLMU51S0I0MHg2RklVR3AyN0FyRG1Rd2siLCJtYWMiOiI2YTA0YjM1ZmVkMWRlMmIwZThhMGQxMDgzZWU1MDc3NjQ5ZWY5MTY4MDRlYjY5YmQxYjY4NmUxY2E2ZDNjMTFjIiwidGFnIjoi","GET","model:""HF65LA""
+","200",,"2022-09-26 10:55:58","2022-09-26 10:55:58"
+"597046","211","/api/v1/reviews/model","61.216.6.166","host=g5ap01.benq.com
+x-real-ip=61.216.6.166
+x-forwarded-for=61.216.6.166
+x-forwarded-proto=https
+x-forwarded-host=g5ap01.benq.com
+x-forwarded-port=443
+connection=close
+sec-ch-ua=""Google Chrome"";v=""105"", ""Not)A;Brand"";v=""8"", ""Chromium"";v=""105""
+accept=application/json, text/plain, */*
+x-xsrf-token=eyJpdiI6InE3MmdXN1E2SGJLcEp0TEhBM2c2RVE9PSIsInZhbHVlIjoid2Jvdlo1UmxwYlovS1EyRTVQSHVrQUFmRUh5UE9hWlBtTklLbjZrZHhWemZTZXVyaHIyTy9rU3J4dlZXSS9ndzcveEFTdTJTUnBzenpxT29wSkFtNVMzS3Q0VUdQSERMaXQ1VjgxZ0RDUFoyNVRVZm1sYklrRlA4Ky9XNEZQcXYiLCJtYWMiOiJhYWFiNDI5OTdlOTg4MTQ2MGQyZTRkMjdkMjFhOTVhYjcyMGFhN2UxYzU3OTJmMTRlMGNkMjg4ZTNkODJkMWU4IiwidGFnIjoiIn0=
+sec-ch-ua-mobile=?0
+user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+sec-ch-ua-platform=""Windows""
+sec-fetch-site=same-origin
+sec-fetch-mode=cors
+sec-fetch-dest=empty
+accept-encoding=gzip, deflate, br
+accept-language=zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+cookie=_ga=GA1.3.1628737262.1633589066; agree_cookie=true; hubspotutk=47702bfbe19244d6dd6c37afde5213b0; _hjid=9f9eb7e1-826f-48a3-8d9e-82609c2f4d2d; _hjSessionUser_1478708=eyJpZCI6ImJjYjg1ZDU2LWU5MDQtNWE3My1hNTRmLTFkYThlZDJiMmMyMSIsImNyZWF0ZWQiOjE2MzgyMzM0MzUyMzAsImV4aXN0aW5nIjp0cnVlfQ==; _hjSessionUser_1478751=eyJpZCI6IjNhOTQ0NDU3LTYwMjQtNWY0Mi04ZTY0LTY2ZWUxMGM5NmY4NyIsImNyZWF0ZWQiOjE2NDAyMjQ3Mjc2NTEsImV4aXN0aW5nIjp0cnVlfQ==; zowie_agree_cookie=true; cartids=%5B%7B%22site_code%22%3A%22tw-buy-staff%22%2C%22cart_id%22%3A%228282511%22%7D%5D; _gcl_au=1.1.180098030.1657784511; _hjSessionUser_2695686=eyJpZCI6IjhlOTEzMjViLTA1MGYtNTVmOC1hMWMwLTEyOGI2ZGRmNzg4MSIsImNyZWF0ZWQiOjE2NTc3ODQ1MjQwNzUsImV4aXN0aW5nIjp0cnVlfQ==; _fbp=fb.1.1657784524179.1211168301; messagesUtk=eb1fff85bb214a11b1730cb28f0d3b25; _ga_Z1KB6B42JW=GS1.1.1662001036.2.1.1662001213.48.0.0; clubbenqtoken=1eee8c90-4ea4-4b6a-9f90-56876df1cac5; clubbenqtokenlastverify=2022-09-01 03:00:14; user_cart=%5B%7B%22site_code%22%3A%22us-buy%22%2C%22cart_id%22%3A%223097620%22%7D%5D; _clck=2ttwkv|1|f4o|0; __hstc=132696849.47702","GET","model:""EW2780U""
+","200",,"2022-09-26 14:05:33","2022-09-26 14:05:33"

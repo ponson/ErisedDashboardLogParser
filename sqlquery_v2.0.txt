@@ -1,0 +1,228 @@
+
+
+*****Amazon Dashboard:*****
+DB: crawler
+	***有效註冊總人數 (扣除停權的帳號)
+直接從DB的users TABLE找上個月新增的帳號加到outlook上面一起檢查有效性
+
+	***Notification Setting裡，每個選項被Enable的數量 (扣除停權的帳號)
+SELECT notifications.name, COUNT(*) `count` 
+FROM `users` JOIN `user_notification` ON users.id = user_notification.user_id
+JOIN notifications ON user_notification.notification_id = notifications.id
+WHERE users.status != 0 AND notifications.id NOT IN (4)
+GROUP BY notifications.id
+ORDER BY notifications.id
+
+	***單月新增人數 (扣除停權的帳號)
+直接從DB的users TABLE找上個月新增的帳號
+
+	***Product Setting 有權限的人數
+SELECT COUNT(*) `count` FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.status != 0 AND groups.ability_ids LIKE '%5%'
+
+	***Review Analysis / Review 有權限的人數
+SELECT COUNT(*) `count` FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.status != 0 AND groups.ability_ids LIKE '%4%'
+
+    ***Sales Performance/Product/Overview
+SELECT COUNT(*) `count` FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.status != 0 AND groups.ability_ids LIKE '%2%'
+
+	***Product Setting 有權限的email清單
+SELECT users.email FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.status != 0 AND groups.ability_ids LIKE '%5%'
+
+	***Review Analysis / Review 有權限的email清單
+SELECT users.email FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.status != 0 AND groups.ability_ids LIKE '%4%'
+
+    ***Sales Performance/Product/Overview 有權限的email清單
+SELECT users.email FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.status != 0 AND groups.ability_ids LIKE '%2%'
+
+    ***Login Users
+SELECT api_logs.user_id, users.email, users.department, COUNT(*) login_count
+FROM api_logs INNER JOIN users ON api_logs.user_id = users.id
+WHERE api_logs.created_at >= '2022-09-01 00:00:00' AND api_logs.created_at < '2022-10-01 00:00:00' AND api_logs.path = '/login' AND api_logs.request_method = 'POST' AND api_logs.user_id != 0
+GROUP BY api_logs.user_id;
+
+*****Influencer Dashboard:*****
+DB: influencer_dashboard
+	有效註冊總人數 (扣除停權的帳號)
+直接從DB的users TABLE找上個月新增的帳號加到outlook上面一起檢查有效性
+
+
+	Influencer Page單月使用搜尋選項的統計
+    ***Influencer list API logs
+有點複雜,再研究
+
+	***Campaign Page單月使用搜尋選項的統計 (這個可能目前沒有吧？)
+沒有
+
+	***單月新增使用者人數
+SELECT CONCAT(YEAR(created_at), '-', MONTH(created_at)) `year-month`, COUNT(*) 
+FROM `users` 
+WHERE email NOT LIKE '%.delete' AND created_at >= '2022-01-01'
+GROUP BY CONCAT(YEAR(created_at), '-', MONTH(created_at))
+
+	***單月新增Influencer數量 (排除刪除)
+SELECT CONCAT(YEAR(created_at), '-', MONTH(created_at)) `year-month`, COUNT(*) 
+FROM `influencers` 
+WHERE deleted_at IS NULL AND created_at >= '2022-01-01'
+GROUP BY CONCAT(YEAR(created_at), '-', MONTH(created_at))
+
+	***單月新增Campaign數量 (排除刪除)
+SELECT CONCAT(YEAR(created_at), '-', MONTH(created_at)) `year-month`, COUNT(*) 
+FROM `campaigns` 
+WHERE deleted_at IS NULL AND created_at >= '2022-01-01'
+GROUP BY CONCAT(YEAR(created_at), '-', MONTH(created_at))
+
+	***單月新增Assignment數量 (排除刪除)
+SELECT CONCAT(YEAR(created_at), '-', MONTH(created_at)) `year-month`, COUNT(*) 
+FROM `contacts` 
+WHERE deleted_at IS NULL AND created_at >= '2022-01-01'
+GROUP BY CONCAT(YEAR(created_at), '-', MONTH(created_at))
+
+	***單月新增的assignments的campaign, model 數量統計
+SELECT contacts.id, campaigns.name campaign_name, products.model, contacts.created_at
+FROM `contacts` 
+LEFT JOIN campaigns ON contacts.campaign_id = campaigns.id
+LEFT JOIN products ON contacts.product_id = products.id
+WHERE contacts.deleted_at IS NULL AND contacts.created_at >= '2022-09-01' AND contacts.created_at < '2022-10-01'
+
+
+    ***查看每一個Region所建立的Assignments數量(排除failed, Rejected)
+SELECT regions.name, COUNT(*)
+ FROM `contacts` 
+JOIN users ON contacts.user_id = users.id
+JOIN regions ON users.region_id = regions.id
+WHERE contacts.deleted_at IS NULL AND contacts.rejected_at IS NULL AND contacts.failed_at IS NULL AND contacts.created_at >= '2021-01-01'
+GROUP BY users.region_id
+
+    ***查看每一個Region，去年所建立的influencers數量,排除 tag="imported"   tag_id = 6
+FROM (
+	SELECT regions.*
+    FROM `influencers`
+    JOIN users ON influencers.primary_user_id = users.id
+    JOIN regions ON users.region_id = regions.id
+    LEFT JOIN influencer_tag ON influencers.id = influencer_tag.influencer_id
+    WHERE deleted_at IS NULL AND influencers.created_at >= '2021-01-01' AND influencer_tag.tag_id !=6
+    GROUP BY influencers.id
+) reg
+GROUP BY reg.id
+
+    ***查看每一個Region，去年所建立的campaign數量
+SELECT regions.name, COUNT(*)
+FROM `campaigns` 
+JOIN users ON campaigns.user_id = users.id
+JOIN regions ON users.region_id = regions.id
+WHERE deleted_at IS NULL AND campaigns.created_at >= '2021-01-01'
+GROUP BY users.region_id
+
+	***依照合作過的assignments數量，對influencers進行排序
+SELECT COUNT(*)
+ cnt, influencers.* FROM `contacts`
+JOIN influencers ON contacts.influencer_id = influencers.id
+where contacts.deleted_at IS NULL  AND contacts.created_at >= '2021-01-01'
+GROUP BY contacts.influencer_id
+ORDER BY cnt DESC
+LIMIT 10
+
+
+    ***整年新增的assignments的campaign, model 數量統計 第二版語法
+SELECT contacts.id, campaigns.name campaign_name, products.model, contacts.created_at
+FROM `contacts` 
+LEFT JOIN campaigns ON contacts.campaign_id = campaigns.id
+LEFT JOIN products ON contacts.product_id = products.id
+WHERE contacts.deleted_at IS NULL AND contacts.rejected_at IS NULL AND contacts.failed_at IS NULL AND contacts.received_at IS NOT NULL AND contacts.created_at >= '2021-01-01' AND contacts.created_at < '2022-02-01'
+
+    ***查詢Primary Contact是無效的influencers 清單
+SELECT influencers.id, influencers.name AS "Influencer name", influencers.social_media_id, users.name AS "Primary Contact", users.email, regions.name AS "Region"
+FROM `influencers` 
+JOIN users ON influencers.primary_user_id = users.id
+JOIN regions ON users.region_id = regions.id
+WHERE users.status = 0
+
+單月login的次數與名單查詢
+
+SELECT logs.user_id, users.name, regions.name, COUNT(*) login_count
+FROM logs INNER JOIN users ON logs.user_id = users.id INNER JOIN regions ON users.region_id = regions.id
+WHERE logs.created_at >= '2022-09-01 00:00:00' AND logs.created_at < '2022-10-01 00:00:00' AND logs.path = '/login' AND logs.request_method = 'POST' AND logs.user_id != 0
+GROUP BY logs.user_id;
+
+
+DB: crawler
+舊認證
+SELECT users.email, users.status, groups.country_ids
+FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.group_id != 0
+AD認證
+SELECT users.email, users.status, groups.country_ids
+FROM `users` JOIN groups ON users.group_id = groups.id
+WHERE users.status = 1
+
+DB: influencer_dashboard
+舊認證
+SELECT email, region_id FROM `users` WHERE email NOT LIKE '%delete'
+AD認證
+SELECT email, region_id FROM `users` WHERE `status` = 1
+
+--- AVS Forum Dashboard ---
+Forum dashboard的log查詢語法
+WHERE裡面的欄位順序開頭是created_at再接path, 這樣才會使用到index去查詢, 會比較快
+
+
+1. 每一位使用者的登入次數
+SELECT logs.user_id, users.name, COUNT(*) login_count
+FROM `logs` 
+JOIN users ON logs.user_id = users.id
+WHERE logs.created_at >= '2022-09-01 00:00:00' AND logs.created_at < '2022-10-01 00:00:00' AND logs.path = '/login' AND logs.request_method = 'POST' AND logs.user_id != 0
+GROUP BY logs.user_id
+
+2. 每個月Volume Trend執行Query的內容
+SELECT * FROM `logs`
+WHERE created_at >= '2022-09-01 00:00:00' AND created_at < '2022-10-01 00:00:00' AND path = '/api/volume/stat' 
+
+後面再加這兩個其中一個可以過濾product或segment
+AND request_content LIKE 'type:"product"%'
+AND request_content LIKE 'type:"segment"%'
+
+3. 每個月Post Search執行Query的內容
+SELECT * FROM `logs`
+WHERE created_at >= '2022-09-01 00:00:00' AND created_at < '2022-10-01 00:00:00' AND path = '/api/volume/thread/query' 
+
+4. 每個月Segment 新增/刪除/修改的內容
+4.1 新增
+SELECT * FROM `logs`
+WHERE created_at >= '2021-06-01 00:00:00' AND created_at < '2021-07-01 00:00:00' AND path = '/api/segment' AND request_method = 'POST'
+4.2 刪除
+SELECT * FROM `logs`
+WHERE created_at >= '2021-06-01 00:00:00' AND created_at < '2021-07-01 00:00:00' AND path LIKE '/api/segment/%' AND request_method = 'DELETE'
+
+4.3 修改
+SELECT * FROM `logs`
+WHERE created_at >= '2021-06-01 00:00:00' AND created_at < '2021-07-01 00:00:00' AND path LIKE '/api/segment/%' AND request_method = 'PUT'
+
+5. 下載
+SELECT * FROM `logs`
+WHERE created_at >= '2021-06-01 00:00:00' AND created_at < '2021-07-01 00:00:00' AND path = '/api/export/download'
+
+
+forum download次數
+沒幾個就手動算數量就好
+SELECT * FROM `logs` WHERE `created_at` >= '2021-11-01' AND `path` = '/api/export/download' 
+
+---------- 查詢influencer dashboard 使用id搜尋的次數 -------------
+SELECT * FROM `logs` WHERE created_at>='2021-01-01' AND path LIKE '/api/influencer?%' AND request_content NOT LIKE 'id:"0"%' 
+這是查使用id搜尋
+
+
+path LIKE '/api/influencer?%' 
+是influencer頁面API
+
+request_content NOT LIKE 'id:"0"%' 
+有輸入id
+
+
+
+

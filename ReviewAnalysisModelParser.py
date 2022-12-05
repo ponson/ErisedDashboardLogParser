@@ -39,6 +39,7 @@ df_table = pd.read_csv(PRODUCT_LINE_BRAND_MODEL_TABLE)
 for key_bind in out_dict.keys():
     c, m = key_bind.split('&')
     print(f"{c}, {m} = {out_dict[key_bind]}")
+    names = COUNTRY_NAMES[c]
     pl, brand = lookup_by_model(df_table, m)
     site_brand_model = '-'.join([COUNTRY_NAMES[c], brand, m])
     l = [pl, site_brand_model, out_dict[key_bind]]

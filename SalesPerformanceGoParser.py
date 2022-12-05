@@ -8,7 +8,7 @@ import pandas as pd
 from Erised_functions import (lookup_by_asin_id, get_log_column, product_line_names,
                               sites_db_name, sites_ext_name)
 
-#TODO 1: Get export file data path=/api/v1/market/list/history
+#TODO 1: Get export file data path=/api/v1/market/list
 SALES_PERFORMANCE_LOG_FILE = r"data/sales_performance_logs.csv"
 PRODUCT_LINE_BRAND_MODEL_TABLE = r"data/product_line_brand_model_table.csv"
 OUTPUT_CSV_FILE = r"output/sales_performance.csv"

@@ -2,7 +2,7 @@
 import pandas as pd
 from Erised_functions import lookup_by_model
 
-COUNTRY_NAMES = {'1':'US', '2':'UK', '4':'DE', '8':'CA', '9':'MX', '11':'IN', '12':'AU', '14':'AE'} 
+COUNTRY_NAMES = {'1':'US', '2':'UK', '3':'FR', '4':'DE', '5':'IT', '6':'ES', '7':'JP',  '8':'CA', '9':'MX', '11':'IN', '12':'AU', '13':'BR', '14':'AE', '15':'NL', '16':'SE', '17':'SG'} 
 REVIEW_ANALYSIS_LOG_FILE = r"data/review_analysis_logs.csv"
 PRODUCT_LINE_BRAND_MODEL_TABLE = r"data/product_line_brand_model_table.csv"
 OUTPUT_CSV_FILE = r"output/review_analysis_models.csv"

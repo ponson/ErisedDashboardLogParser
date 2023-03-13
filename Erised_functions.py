@@ -11,8 +11,11 @@ def lookup_by_model(df_table, model):
     print(f"lbm={model}")
     df1 = df_table[df_table.model == model].reset_index(drop=True)
     print(df1)
-    # print(f"model= {model} => {df1.iat[0, 2]}, {df1.iat[0, 3]}")
-    return df1.iat[0, 3], df1.iat[0, 4]
+    if df1.empty:
+        return 'None', 'None'
+    else:
+        print(f"model= {model} => {df1.iat[0, 2]}, {df1.iat[0, 3]}")
+        return df1.iat[0, 3], df1.iat[0, 4]
 
 def lookup_by_asin_id(id_list):
     df_table = pd.read_csv(PRODUCT_LINE_BRAND_MODEL_TABLE)

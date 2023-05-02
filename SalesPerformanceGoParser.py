@@ -102,7 +102,10 @@ def output_models_usage_count_by_site(w):
         if i != 0 and i != 10:
             one_site = df[i].dropna()
             one_site = one_site.sort_values(ascending=False)
+            # print(f"one site models: {list(one_site.index.values)}")
             model_info_df = lookup_by_asin_id(list(one_site.index.values))
+            if model_info_df is None:
+                continue
             one_site_df = pd.DataFrame({'id':one_site.index, 'count':one_site.values}) 
             one_site_df = one_site_df.merge(model_info_df.drop(['product_line_id'], axis=1))
             one_site_df = one_site_df[one_site_df.country == sites_db_name[i]]

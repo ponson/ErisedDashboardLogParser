@@ -21,11 +21,17 @@ def lookup_by_asin_id(id_list):
     df_table = pd.read_csv(PRODUCT_LINE_BRAND_MODEL_TABLE)
     idxl = []
     for i in id_list:
-        idx = df_table[df_table.id == i].index[0]
-        idxl.append(idx)
-    # print(f"idxl={idxl}")
-    df1 = df_table.iloc[idxl]
-    return df1
+        try:
+            idx = df_table[df_table.id == i].index[0]
+            idxl.append(idx)
+        except:
+            print(f"model id {i} not found")
+
+    if len(idxl):
+        df1 = df_table.iloc[idxl]
+        return df1
+    else:
+        return None
 
 def get_log_column(logs, col):
     request_content = logs['request_content']

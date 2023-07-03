@@ -21,21 +21,23 @@ def one_row_pd_log_parser(row_data):
     asins = a_dict['asin_ids'].strip("[]\"").split(",")
     for idx in range(len(asins)):
         asins[idx] = int(asins[idx].strip("\""))
-    # print(asins)
+    print(asins)
     model_info_df = lookup_by_asin_id(asins)
-    model_info_df = model_info_df.reset_index()
-    # print(model_info_df)
-    # for idx in range(model_info_df.count()):
-    the_site = "NONE"
-    for idx in range(len(model_info_df.index)):
-        model_data = model_info_df.iloc[idx]
-        if idx == 0:
-            site_query_count[model_data['country']] += 1
-            the_site = model_data['country']
-        try:
-            pd_models_by_sites[pd_sites_db_name.index(the_site)][model_data['model']][0] += 1
-        except KeyError:
-            pd_models_by_sites[pd_sites_db_name.index(the_site)][model_data['model']] = [1, model_data['name'], model_data['brand']]
+    print(f"DataType is: {type(model_info_df)}")
+    if type(model_info_df) == pd.core.frame.DataFrame:
+        model_info_df = model_info_df.reset_index()
+        # print(model_info_df)
+        # for idx in range(model_info_df.count()):
+        the_site = "NONE"
+        for idx in range(len(model_info_df.index)):
+            model_data = model_info_df.iloc[idx]
+            if idx == 0:
+                site_query_count[model_data['country']] += 1
+                the_site = model_data['country']
+            try:
+                pd_models_by_sites[pd_sites_db_name.index(the_site)][model_data['model']][0] += 1
+            except KeyError:
+                pd_models_by_sites[pd_sites_db_name.index(the_site)][model_data['model']] = [1, model_data['name'], model_data['brand']]
         
     # print(site_query_count)
 

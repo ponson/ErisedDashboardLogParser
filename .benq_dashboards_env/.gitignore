@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+*.csv
+*.xlsx
+Lib/*
+Scripts/*
+data/*.csv
+output/*
+_pycache_/*

@@ -12,7 +12,7 @@ from Erised_functions import (lookup_by_asin_id, get_log_column, product_line_na
 SALES_PERFORMANCE_LOG_FILE = r"data/sales_performance_logs.csv"
 PRODUCT_LINE_BRAND_MODEL_TABLE = r"data/product_line_brand_model_table.csv"
 OUTPUT_CSV_FILE = r"output/sales_performance.csv"
-PRODUCT_LINE_COUNTS = 8
+PRODUCT_LINE_COUNTS = 10
 sp_sites   = ["None", {},   {},   {},   {},   {},   {},   {},   {},   {},   {},     {},   {},   {},   {},   {},   {},   {}]
 sp_models_by_sites = ["None", {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
 sp_pdls_by_sites = ["None", {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
@@ -87,7 +87,7 @@ def output_product_line_usage_count_by_site(w):
     df = pd.DataFrame(src_dict)
     df.fillna(0, inplace=True)
     df = df.transpose()
-    df.rename(columns={1:'PRJ', 2:'LCD', 3:'GGP', 4:'WTG', 5:'ESD', 6:'ADO', 7:'LTV', 8:'IFP'}, inplace=True)
+    df.rename(columns={1:'PRJ', 2:'LCD', 3:'GGP', 4:'WTG', 5:'ESD', 6:'ADO', 7:'LTV', 8:'IFP', 9:'CLM', 10:'DTP'}, inplace=True)
     df = df.drop([0, 10])  #Remove useless rows
     df.to_excel(w, sheet_name='ProductLineCountsBySites')
 

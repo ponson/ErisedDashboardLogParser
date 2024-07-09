@@ -13,10 +13,10 @@ SALES_PERFORMANCE_LOG_FILE = r"data/sales_performance_logs.csv"
 PRODUCT_LINE_BRAND_MODEL_TABLE = r"data/product_line_brand_model_table.csv"
 OUTPUT_CSV_FILE = r"output/sales_performance.csv"
 PRODUCT_LINE_COUNTS = 10
-sp_sites   = ["None", {},   {},   {},   {},   {},   {},   {},   {},   {},   {},     {},   {},   {},   {},   {},   {},   {}]
-sp_models_by_sites = ["None", {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
-sp_pdls_by_sites = ["None", {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
-sp_sites_count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+sp_sites   = ["None", {},   {},   {},   {},   {},   {},   {},   {},   {},   {},     {},   {},   {},   {},   {},   {},   {},   {}]
+sp_models_by_sites = ["None", {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+sp_pdls_by_sites = ["None", {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+sp_sites_count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 # for v1 onlypi
 sp_pdls = ["None"]

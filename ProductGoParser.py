@@ -8,10 +8,10 @@ from Erised_functions import lookup_by_asin_id, get_log_column, sites_db_name, s
 PRODUCT_PAGE_LOG_FILE = r"data/product_page_logs.csv"
 PRODUCT_LINE_BRAND_MODEL_TABLE = r"data/product_line_brand_model_table.csv"
 OUTPUT_CSV_FILE = r"output/product_go.csv"
-site_query_count = {'com':0, 'co.uk':0, 'fr':0, 'de':0, 'it':0, 'es':0, 'co.jp':0, 'ca':0, 'com.mx':0, 'in':0, 'com.au':0, 'com.br':0, 'ae':0, 'nl':0, 'se':0, 'sg':0}
-pd_models_by_sites = [ {},      {},   {},   {},   {},   {},      {},   {},       {},   {},       {},       {},   {},   {},   {},  {}]
-pd_sites_db_name = ['com', 'co.uk', 'fr', 'de', 'it', 'es', 'co.jp', 'ca', 'com.mx', 'in', 'com.au', 'com.br', 'ae', 'nl', 'se', 'sg']
-pd_sites_ext_name = ['US', 'UK',    'FR', 'DE', 'IT', 'ES', 'JP',    'CA', 'MX',     'IN', 'AU',     'BR',     'AE', 'NL', 'SE', 'SG']
+site_query_count = {'com':0, 'co.uk':0, 'fr':0, 'de':0, 'it':0, 'es':0, 'co.jp':0, 'ca':0, 'com.mx':0, 'in':0, 'com.au':0, 'com.br':0, 'ae':0, 'nl':0, 'se':0, 'sg':0, 'sa':0}
+pd_models_by_sites = [ {},      {},   {},   {},   {},   {},      {},   {},       {},   {},       {},       {},   {},   {},   {},  {},    {}]
+pd_sites_db_name = ['com', 'co.uk', 'fr', 'de', 'it', 'es', 'co.jp', 'ca', 'com.mx', 'in', 'com.au', 'com.br', 'ae', 'nl', 'se', 'sg', 'sa']
+pd_sites_ext_name = ['US', 'UK',    'FR', 'DE', 'IT', 'ES', 'JP',    'CA', 'MX',     'IN', 'AU',     'BR',     'AE', 'NL', 'SE', 'SG', 'SA']
 
 
 def one_row_pd_log_parser(row_data):

@@ -2,9 +2,9 @@ import pandas as pd
 
 PRODUCT_LINE_BRAND_MODEL_TABLE = r"data/product_line_brand_model_table.csv"
 
-sites_db_name = ['None', 'com', 'co.uk', 'fr', 'de', 'it', 'es', 'co.jp', 'ca', 'com.mx', 'NONE2', 'in', 'com.au', 'com.br', 'ae', 'nl', 'se', 'sg']
-sites_ext_name = ['None', 'US', 'UK', 'FR', 'DE', 'IT', 'ES', 'JP', 'CA', 'MX', 'NONE2', 'IN', 'AU', 'BR', 'AE', 'NL', 'SE', 'SG']
-product_line_names = ['None', 'PRJ', 'LCD', 'GGP', 'WTG', 'ESD', 'ADO', 'LTV', 'IFP']
+sites_db_name = ['None', 'com', 'co.uk', 'fr', 'de', 'it', 'es', 'co.jp', 'ca', 'com.mx', 'NONE2', 'in', 'com.au', 'com.br', 'ae', 'nl', 'se', 'sg', 'sa']
+sites_ext_name = ['None', 'US', 'UK', 'FR', 'DE', 'IT', 'ES', 'JP', 'CA', 'MX', 'NONE2', 'IN', 'AU', 'BR', 'AE', 'NL', 'SE', 'SG', 'SA']
+product_line_names = ['None', 'PRJ', 'LCD', 'GGP', 'WTG', 'ESD', 'ADO', 'LTV', 'IFP', 'CLM', 'DTP']
 
 
 def lookup_by_model(df_table, model):
